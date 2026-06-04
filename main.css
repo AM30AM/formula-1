@@ -6,6 +6,12 @@
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
 body {
     font-family: "Roboto Mono", monospace;
     font-weight: 400;
