@@ -85,17 +85,39 @@
 @media screen and (max-width: 320px) {
 
     .team_composition h1 {
-        margin-left: 15%;
+        font-size: 25px;
+        margin-bottom: 40px;
     }
 
+
     .gallery-wrapper {
-    
-    max-width: 200vh; /* Ширина видимой части */
-    margin-left: 30%;
+    max-width: 220px; /* Ширина видимой части */
+    margin-left: 50px;
     }
 
     .gallery_block img {
     width: 200px;
     height: 350px;
     }
+
+    .gallery_text {
+        text-align: center;
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    /* Кнопки */
+    .btn {
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 10;
+        border-radius: 50%;
+    }
+
 }
